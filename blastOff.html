@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--        Programming Challenge
+            On Your Own:    ch. 4
+            Description:
+			Create a html web page that will display a countdown to a rocket blasting off. 
+			Use a button to start the countdown. 
+			The countdown sequence should display on the web page and should display BLASTOFF! at the end. 
+			You can, if you wish, add a rocket image. 
+			Save the page as blastoff.html and be sure to include an appropriate page title.
+                        
+            Created by: Jerry French  
+						csc240
+            Created on: 3/23/2022,
+-->
+<!-- linking my style sheet-->
+<link rel="stylesheet" href="css/style.css"
+
+<html>
+  <head>
+    <title>30 second countdown timer</title>
+    <script src="js/main.js" defer></script>
+  </head>
+  <header>
+  <h1>Countdown To Rocket Launch</h1>
+  </header>
+  
+  <body>
+    <div id="countdown">
+      <div id="countdown-number">30</div>
+    </div>
+	
+    <div class="action-list">
+      <button id="stop">
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/pause--v1.png" />
+      </button>
+	  
+      <button id="start">
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png" />
+      </button>
+	  
+      <button id="reset">
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/stop.png" />
+      </button>
+	  
+    </div>
+	<div id="blastOff">Are You Ready</div>
+    <audio id="timeout_audio"></audio>
+  </body>
+  
+  <footer>
+      <p>Jerry French, 3/23/2022, csc240</p>
+      <p>&copy; Copyright 2022. All Rights Reserved.</p>
+  </footer> 
+</html>

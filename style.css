@@ -1,0 +1,124 @@
+/* Programming Challenge
+            Programming Challenge
+            On Your Own:    ch. 4
+            Description:
+			Create a html web page that will display a countdown to a rocket blasting off. 
+			Use a button to start the countdown. 
+			The countdown sequence should display on the web page and should display BLASTOFF! at the end. 
+			You can, if you wish, add a rocket image. 
+			Save the page as blastoff.html and be sure to include an appropriate page title.
+                        
+            Created by: Jerry French  
+						csc240
+            Created on: 3/23/2022,
+
+
+ */
+ /* CSS reset */
+/* make sure all browsers run code the same */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,figure,figcaption { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}/* CSS reset */
+ 
+ header {
+	
+	
+	height: auto;
+	width: auto;
+
+	/* background image */
+	background-image: linear-gradient(to bottom, rgba(172, 198, 210,1), rgba(0,0,0,1));
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	
+	border-style: double;
+	border-width: 6px;
+	
+	font-family: Roboto, sans-serif, ariel;
+	font-size: .75em;
+	
+	padding-top: 5%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	
+	margin: .5%;
+	
+	
+}
+body {
+  font-family: sans-serif;
+  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img4.goodfon.com/wallpaper/nbig/1/2e/multfilm-shou-simpsons-personazh-20th-century-fox-art-ris-15.jpg");
+}
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0e2c4c;
+  font-size: 70px;
+  width: 200px;
+  height: 200px;
+  background-color: #e7d9fc;
+  border-radius: 50%;
+}
+.action-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+button {
+  border: none;
+  background-color: #e7d9fc;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+/* footer display */
+footer{
+
+	/* background image */
+	background-image: linear-gradient(to bottom, rgba(210, 172, 172,1), rgba(172, 210, 172,1));
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	
+	border-style: double;
+	border-width: 12px;
+	
+	float: bottom;	
+}
+
+div {
+
+	background-image: linear-gradient(to bottom, rgba(210, 172, 172,1), rgba(172, 210, 172,1));
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	padding: 45px;
+	border-style: double;
+	border-width: 12px;
+	font-size: 15px
+	float: bottom;	
+
+
+}
